@@ -7,5 +7,7 @@
 
     templates.rust.description = "Rust template";
     templates.rust.path = ./rust;
+
+    templates.default = self.templates.rust;
   };
 }
